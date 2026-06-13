@@ -1,0 +1,73 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    flex: 1;
+    min-height: 844px;
+
+    padding: 40px 24px 48px;
+
+    background-color: #f7f8f9;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-title {
+    margin-bottom: 12px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: #1a1a2e;
+}
+
+.welcome-subtitle {
+    margin-bottom: 32px;
+
+    font-size: 15px;
+    line-height: 1.5;
+
+    color: #6b7280;
+}
+
+.welcome-buttons {
+    display: flex;
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.btn {
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background-color: #6c3aff;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #c5b3ff;
+    color: #1a1a2e;
+}
